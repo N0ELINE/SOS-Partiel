@@ -26,6 +26,7 @@
       <itemPath>main.c</itemPath>
       <itemPath>stackUsingPointers.c</itemPath>
       <itemPath>tris.c</itemPath>
+      <itemPath>tris2.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -80,6 +81,8 @@
       </item>
       <item path="tris.c" ex="false" tool="0" flavor2="0">
       </item>
+      <item path="tris2.c" ex="false" tool="0" flavor2="0">
+      </item>
     </conf>
     <conf name="Release" type="1">
       <toolsSet>
@@ -129,6 +132,8 @@
       <item path="stackUsingPointers.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="tris.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tris2.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>

@@ -42,7 +42,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/linkedList.o \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/stackUsingPointers.o \
-	${OBJECTDIR}/tris.o
+	${OBJECTDIR}/tris.o \
+	${OBJECTDIR}/tris2.o
 
 
 # C Compiler Flags
@@ -108,6 +109,11 @@ ${OBJECTDIR}/tris.o: tris.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -std=c99 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/tris.o tris.c
+
+${OBJECTDIR}/tris2.o: tris2.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -std=c99 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/tris2.o tris2.c
 
 # Subprojects
 .build-subprojects:
