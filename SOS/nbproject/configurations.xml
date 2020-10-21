@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>arbreRougeNoir.h</itemPath>
+      <itemPath>avlTree.h</itemPath>
+      <itemPath>binaryHeap.h</itemPath>
+      <itemPath>binarySearchTree.h</itemPath>
+      <itemPath>linkedList.h</itemPath>
+      <itemPath>stackUsingPointers.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>arbreRougeNoir.c</itemPath>
+      <itemPath>avlTree.c</itemPath>
+      <itemPath>binaryHeap.c</itemPath>
+      <itemPath>binarySearchTree.c</itemPath>
+      <itemPath>linkedList.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>stackUsingPointers.c</itemPath>
+      <itemPath>tris.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>3</standard>
+        </cTool>
+      </compileType>
+      <item path="arbreRougeNoir.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arbreRougeNoir.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="avlTree.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="avlTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="binaryHeap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="binaryHeap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="binarySearchTree.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="binarySearchTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="linkedList.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="linkedList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="stackUsingPointers.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="stackUsingPointers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tris.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <standard>3</standard>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="arbreRougeNoir.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="arbreRougeNoir.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="avlTree.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="avlTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="binaryHeap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="binaryHeap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="binarySearchTree.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="binarySearchTree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="linkedList.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="linkedList.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="stackUsingPointers.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="stackUsingPointers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tris.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
